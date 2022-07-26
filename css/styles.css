@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,900&display=swap');
+
+* {
+  font-family: 'lato', sans-serif;
+  font-family: 'COCOGOOSE';
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-links {
+  background-color: #272a31;
+  height: 2rem;
+  text-align: right;
+  /* padding-top: 8px; */
+  list-style: none;
+  padding: .5rem 10% 0 10%;
+}
+
+.header-links li {
+  font-family: 'lato', sans-serif;
+  color: white;
+  margin-right: .75rem;
+  display: inline-block;
+}
+
+.hamburger {
+  color: #272a31;
+  font-size: 2rem;
+  padding-left: 1rem;
+  background: none;
+  border: none;
+}
+
+
+.headline-section {
+  background-image: url(../images/background-mobile.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+
+@media screen and (max-width  : 768px) {
+  .header-links {
+    display: none;
+  }
+}

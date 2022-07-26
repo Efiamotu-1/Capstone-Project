@@ -1,62 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# First Capstone
 
-> Description the project.
+> This project contains the information and events for First Capstone.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Modern updated Web Browser such as Chrome, Safari, Firefox, among others
+Javascript enabled
 ### Setup
 
+[Repository Link](https://github.com/Efiamotu-1/First-Capstone)
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+git clone https://github.com/Efiamotu-1/First-Capstone.git
 
 ## Authors
 
-👤 **Author1**
+👤 **Habeeb Efiamaotu Musa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Cindy Shin**
+
+- LinkedIn: [LinkedIn](https://linkedin.com/in/adagio07)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]().
 
 ## Show your support
 
@@ -64,10 +53,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Cindy Shin, whose design inspired this project.
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- My supportive family 😊
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
