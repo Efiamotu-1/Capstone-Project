@@ -24,6 +24,12 @@
   padding: 0.5rem 8%;
 }
 
+.logo-img {
+  width: auto;
+  height: 4rem;
+  font-size: 50px;
+}
+
 .header-links li {
   font-family: 'lato', sans-serif;
   color: white;
@@ -53,7 +59,8 @@
 .logo {
   border: none;
   background: none;
-  width: 100px;
+
+  /* height: 600px; */
 }
 
 .closeMenu,
@@ -584,6 +591,10 @@
     margin: 2rem;
   }
 
+  .he {
+    background-color: red;
+  }
+
   .about-text {
     text-align: center;
     font-family: 'lota', sans-serif;
@@ -609,9 +620,9 @@
     color: #272a31;
     font-size: 2rem;
     padding: 1rem 0;
-    margin-left: -5rem;
     background: none;
     border: none;
+    margin: 0 1rem;
   }
 
   .footer {
@@ -629,7 +640,10 @@
     box-shadow: none;
   }
 
-  .logo,
+  .logo {
+    display: none;
+  }
+
   .see-more {
     visibility: hidden;
   }
@@ -709,6 +723,8 @@
     text-align: left;
     margin: 3%;
   }
+
+
 
   .partner-logo {
     flex-wrap: wrap;
