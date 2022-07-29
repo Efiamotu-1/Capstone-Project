@@ -1,33 +1,33 @@
-// const seeMore = document.getElementById('see-more-speakers');
 const speakers = document.getElementById('speakers');
 const speakerData = [
   {
-    name: 'Caleb McCornick',
+    name: 'Habeeb Efiamotu Musa',
+    role: 'Fullstack web developer',
+    description: 'Microverse',
+    image: '../images/profile-img.jpg',
+  },
+
+  {
+    name: 'Mark Zuckerberg',
     role: 'Enterpreneur',
-    description: 'co-founder. Laundraumat Enterprise',
-    image: '../images/profile.jpg',
+    description: 'Co-founder of facebook and its parent company Meta Platforms',
+    image: '../images/mark-zuck.jpeg',
   },
 
   {
     name: 'Billy Gilmour',
-    role: 'Footballer',
-    description: 'Chelsea Football Club',
-    image: '../images/profile.jpg',
+    role: 'Midfielder',
+    description: 'Footballer for Chelsea Football Club, London, England',
+    image: '../images/gilmour.jpeg',
   },
 
   {
-    name: 'James Ruppert',
+    name: 'Ernie Williams',
     role: 'Enterpreneur',
     description: 'Founder. New Horizon',
     image: '../images/profile.jpg',
   },
 
-  {
-    name: 'Alex Runnarsson',
-    role: 'Teacher',
-    description: 'Berkley school of Music',
-    image: '../images/profile.jpg',
-  },
 ];
 
 speakers.innerHTML = speakerData.map((speak) => (
@@ -35,7 +35,7 @@ speakers.innerHTML = speakerData.map((speak) => (
     <li class="single-speaker">
     <div class="photo">
         <div class="pattern">
-            <img src="${speak.image}" width="100px" alt="">
+            <img src="${speak.image}" class="speakers-img" alt="">
         </div>
     </div>
     <div class="info">
