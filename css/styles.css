@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,900&display=swap');
 
 * {
-  /* font-family: 'lato', sans-serif;
-  font-family: 'COCOGOOSE'; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -177,13 +175,7 @@
 }
 
 #intro-info {
-  /* margin-top: 42px; */
   font-family: 'COCOGOOSE', serif;
-
-  /* font-size: 36px; */
-
-  /* font-size: 50px; */
-
   font-size: 3rem;
   background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(../images/it.jpeg);
   background-repeat: repeat;
@@ -211,7 +203,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   color: #272a31;
   background: #f8f8f9;
   margin-bottom: 20px;
@@ -272,7 +264,7 @@
   align-items: center;
 }
 
-.main-program h1 {
+.main-program h2 {
   padding-bottom: 0.5rem;
 }
 
@@ -397,6 +389,12 @@
   margin: 0 auto;
   gap: 4rem;
   padding: 2rem 0;
+}
+
+.speakers-img {
+  width: 100px;
+  object-fit: cover;
+  height: 100px;
 }
 
 .footer-img {
@@ -531,7 +529,74 @@
   height: 20rem;
 }
 
+.about-footer-bg {
+  background-color: #272a31;
+  color: #fff;
+}
+
+.about-partner-bg {
+  display: none;
+  padding: 0 1rem;
+
+  /* margin: 1rem; */
+}
+
+.about-footer-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+.footer-img-dark {
+  display: none;
+}
+
+#see-more-speakers {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-style: solid;
+  border-color: var(--color-primary);
+  border-width: 1px;
+  transform: scale(1);
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#see-more-speakers:hover {
+  transform: scale(1.05);
+}
+
+#see-more-speakers i {
+  color: var(--color-accent);
+  font-size: 110%;
+  margin-left: 0.8rem;
+}
+
 @media screen and (max-width: 768px) {
+  #see-more-speakers {
+    display: block;
+  }
+
+  .footer-img-white {
+    display: none;
+  }
+
+  .footer-img-dark {
+    display: block;
+  }
+
+  .about-footer-content {
+    padding: 2rem;
+    background-color: #fff;
+    color: black;
+  }
+
   #speakers {
     /* display: grid; */
     grid-template-columns: 1fr;
@@ -604,7 +669,6 @@
 
   .headline-section-nav {
     display: block;
-    background: none;
     padding: 0;
     box-shadow: none;
   }
@@ -700,6 +764,12 @@
   .summit {
     flex-direction: column;
     margin: 2rem;
+  }
+
+  .about-partner-bg {
+    display: block;
+    padding: 0;
+    margin: 0;
   }
 }
 
