@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# First Capstone
+# Lmun Website
 
-> This project contains the information and events for First Capstone.
-
+> This project contains the information and events lagos model united nations. Check this [video](https://www.loom.com/share/b571e6c5c77544f5b15e8d151eec6e98) describing this project's features.
 
 ## Built With
 
@@ -13,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://efiamotu-1.github.io/First-Capstone/)
 
 
 ## Getting Started
