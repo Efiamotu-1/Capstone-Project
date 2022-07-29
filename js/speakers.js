@@ -4,28 +4,28 @@ const speakerData = [
     name: 'Habeeb Efiamotu Musa',
     role: 'Fullstack web developer',
     description: 'Microverse',
-    image: '../images/profile-img.jpg',
+    image: './images/profile-img.jpg',
   },
 
   {
     name: 'Mark Zuckerberg',
     role: 'Enterpreneur',
     description: 'Co-founder of facebook and its parent company Meta Platforms',
-    image: '../images/mark-zuck.jpeg',
+    image: './images/mark-zuck.jpeg',
   },
 
   {
     name: 'Billy Gilmour',
     role: 'Midfielder',
     description: 'Footballer for Chelsea Football Club, London, England',
-    image: '../images/gilmour.jpeg',
+    image: './images/gilmour.jpeg',
   },
 
   {
     name: 'Ernie Williams',
     role: 'Enterpreneur',
     description: 'Founder. New Horizon',
-    image: '../images/profile.jpg',
+    image: './images/profile.jpg',
   },
 
 ];
