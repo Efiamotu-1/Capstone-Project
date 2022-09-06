@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://efiamotu-1.github.io/First-Capstone/)
+[Live Demo Link](https://efiamotu-1.github.io/Capstone-Project/)
 
 
 ## Getting Started
