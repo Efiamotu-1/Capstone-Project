@@ -29,14 +29,14 @@ const speakerData = [
   },
 
   {
-    name: 'rauch',
+    name: 'Rauch Padukone',
     role: 'Student, University of California, Usa',
     description: 'Fourth year Law student with keen interest in solving global issues around the world',
     image: './images/speakers/rauch.png',
   },
 
   {
-    name: 'Isaac',
+    name: 'Isaac Weidenfeller',
     role: 'Student, University of columbia, Usa',
     description: 'First year medical student with keen interest in solving global issues around the world',
     image: './images/speakers/isaac.jpg',
