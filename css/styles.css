@@ -50,10 +50,33 @@
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
-.logo {
-  border: none;
-  background: none;
+.animate-text {
+  font-family: 'COCOGOOSE', serif;
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(../images/it.jpeg);
+  background-repeat: repeat;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  animation-name: phase;
+  animation-timing-function: ease-in-out;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
+
+.logo-sm {
+  font-size: 1.5rem
+}
+
+.logo-lg {
+  font-size: 3rem;
+  flex: 1
+}
+
+.footer-text {
+  flex: 2
+
+} 
 
 .closeMenu,
 .hamburger,
@@ -119,15 +142,11 @@
 }
 
 .about-image {
-  background-color: #fff;
   border: 1px solid #d3d3d3;
   padding: 2rem 1rem;
   margin: 2rem 0;
 }
 
-.about-image img {
-  width: 300px;
-}
 
 .about-text {
   padding-bottom: 0.5rem;
@@ -174,18 +193,7 @@
 }
 
 #intro-info {
-  font-family: 'COCOGOOSE', serif;
   font-size: 3rem;
-  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(../images/it.jpeg);
-  background-repeat: repeat;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-font-smoothing: antialiased;
-  animation-name: phase;
-  animation-timing-function: ease-in-out;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
 }
 
 .about-section {
@@ -226,6 +234,7 @@
   font-family: 'COCOGOOSE', serif;
   color: #272a31;
   font-size: 2rem;
+  width: 100%
 }
 
 #intro-address {
@@ -382,9 +391,9 @@
 .footer-content {
   display: flex;
   align-items: center;
-  max-width: 1000px;
+  justify-content: center;
+  max-width: 90%;
   margin: 0 auto;
-  gap: 4rem;
   padding: 2rem 0;
 }
 
@@ -394,9 +403,6 @@
   height: 100px;
 }
 
-.footer-img {
-  width: 20%;
-}
 
 .single-speaker {
   display: flex;
@@ -725,6 +731,12 @@
     font-size: 2.5rem;
   }
 
+  #intro-date {
+    font-family: 'COCOGOOSE', serif;
+    color: #272a31;
+    font-size: 1.5rem;
+  }
+
   .card-container {
     flex-direction: column;
   }
@@ -747,8 +759,27 @@
     margin-left: 14px;
   }
 
+  .logo-lg {
+    font-size: 1.5rem;
+    flex: 1
+  }
+  
+  .footer-text {
+    flex: 1
+  
+  } 
+  
+
+  .logo-sm {
+    display: none
+  }
+
   .partner-logo {
     flex-wrap: wrap;
+  }
+
+  .past-summit {
+    margin-top: -5rem;
   }
 
   .summit {
