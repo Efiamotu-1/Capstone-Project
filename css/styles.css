@@ -65,18 +65,17 @@
 }
 
 .logo-sm {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .logo-lg {
   font-size: 3rem;
-  flex: 1
+  flex: 1;
 }
 
 .footer-text {
-  flex: 2
-
-} 
+  flex: 2;
+}
 
 .closeMenu,
 .hamburger,
@@ -146,7 +145,6 @@
   padding: 2rem 1rem;
   margin: 2rem 0;
 }
-
 
 .about-text {
   padding-bottom: 0.5rem;
@@ -234,7 +232,7 @@
   font-family: 'COCOGOOSE', serif;
   color: #272a31;
   font-size: 2rem;
-  width: 100%
+  width: 100%;
 }
 
 #intro-address {
@@ -402,7 +400,6 @@
   object-fit: cover;
   height: 100px;
 }
-
 
 .single-speaker {
   display: flex;
@@ -761,17 +758,16 @@
 
   .logo-lg {
     font-size: 1.5rem;
-    flex: 1
+    flex: 1;
   }
-  
+
   .footer-text {
-    flex: 1
-  
-  } 
-  
+    flex: 1;
+  }
+
 
   .logo-sm {
-    display: none
+    display: none;
   }
 
   .partner-logo {
