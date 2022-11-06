@@ -60,7 +60,7 @@ Now you can go and play with it as you wish :smile:
 
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[@EFYAMOTU](https://twitter.com/EFYAMOTU)|[LinkedIn](https://www.linkedin.com/in/Musa-habeeb/)|
+|Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[@EFYAMOTU](https://twitter.com/EFYAMOTU)|[Habeeb Musa](https://www.linkedin.com/in/Musa-habeeb/)|
 
 
 👤 **Cindy Shin**
