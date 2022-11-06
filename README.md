@@ -8,20 +8,18 @@
 
 ![cap-1](https://user-images.githubusercontent.com/89055502/200187186-f00e8014-5ee0-49d0-a243-32ae0c513a9e.png)
 
-
-## Website Demo 
-Check this [video](https://www.loom.com/share/b571e6c5c77544f5b15e8d151eec6e98) describing this project's features.
-
 ## Built With
 
 - HTML
 - CSS
 - Javascript
 
-## Live Demo
+## Website Live Version
 
 [Live Demo Link](https://efiamotu-1.github.io/Capstone-Project/)
 
+## Website Video Demo
+Check this [video](https://www.loom.com/share/b571e6c5c77544f5b15e8d151eec6e98) describing this project's features.
 
 ## Getting Started
 
